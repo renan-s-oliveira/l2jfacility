@@ -1,6 +1,6 @@
 <?php
 
-namespace L2JAddCoin\Models;
+namespace L2JFacility\Models;
 
 use L2JAddCoin\Models\Character;
 use Illuminate\Foundation\Auth\User as Authenticatable;

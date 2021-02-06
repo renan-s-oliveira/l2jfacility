@@ -1,6 +1,6 @@
 <?php
 
-namespace L2JAddCoin\Models;
+namespace L2JFacility\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Database\Eloquent\Model;
