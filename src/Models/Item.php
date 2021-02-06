@@ -3,6 +3,7 @@
 namespace L2JAddCoin\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Database\Eloquent\Model;
 
 class Item extends Model
 {
