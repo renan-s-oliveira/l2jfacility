@@ -15,5 +15,12 @@
         "psr-4": {
             "L2JFacility\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers":[
+                "L2JFacility\\Providers\\L2JFacilityServiceProvider"
+            ]
+        }
     }
 }
