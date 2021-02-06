@@ -3,6 +3,7 @@
 namespace L2JFacility;
 
 use L2JFacility\Models\Character;
+use Illuminate\Support\Facades\DB;
 
 class L2JFacility
 {
