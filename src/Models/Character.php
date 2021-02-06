@@ -9,6 +9,7 @@ class Character extends Model
 {
     
     protected $connection = 'game_server';
+    
     /**
      * The attributes that are mass assignable.
      *
@@ -21,6 +22,5 @@ class Character extends Model
     public $timestamps = false;
 
     protected $fillable = [];
-
 
 }

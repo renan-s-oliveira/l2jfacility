@@ -10,10 +10,13 @@ Como usar:
 use L2JFacility\Rank;
 
 
-Rank::pvp();
+Rank::pvp(50); // Lista os pvps, parâmetro esperado quantidade de Jogadores por página 
+Rank::pvp(); // Deafult 10
 
-Rank::pk();
+Rank::pk(50); // Lista os pks, parâmetro esperado quantidade de Jogadores por página
+Rank::pk(); // Deafult 10
 
-Rank::karma();
+Rank::karma(50); // Lista os karma, parâmetro esperado quantidade de Jogadores por página
+Rank::karma(); // Deafult 10
 
 ```
