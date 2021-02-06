@@ -13,4 +13,6 @@ use L2JFacility\Rank;
 Rank::pvp();
 
 Rank::pk();
+
+Rank::karma();
 ´´´
