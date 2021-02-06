@@ -1,6 +1,6 @@
 {
     "name": "renan-s-oliveira/l2j-facility",
-    "description": "package for facility functions for L2J",
+    "description": "package for facility functions L2J",
     "type": "package",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,11 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^8.12",
+        "renan-s-oliveira/l2j-hasher": "dev-main"
+    },
     "autoload": {
         "psr-4": {
             "L2JFacility\\": "src/"
