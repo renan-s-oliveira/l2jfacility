@@ -1,0 +1,19 @@
+{
+    "name": "renan-s-oliveira/l2j-facility",
+    "description": "package for facility functions for L2J",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Renan de Souza Oliveira",
+            "email": "renanoliveiradev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "L2JFacility\\": "src/"
+        }
+    }
+}
