@@ -10,4 +10,8 @@ class L2JFacility
     {
         return Character::orderByDesc($type)->paginate($pagination);
     }
+    public static function count(string $table, string $type, int $pagination = 10, string $db = 'game_server')
+    {
+        return DB::connection($db)->table($table)->orderByDesc($type)->paginate($pagination);
+    }
 }
