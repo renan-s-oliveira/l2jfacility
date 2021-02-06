@@ -57,7 +57,7 @@ Add to config/database.php in Laravel
 
 ```
 
-Remove from .env # Do not remove DB_CONNECTION=login_server 
+Remove from .env 
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
