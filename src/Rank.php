@@ -2,6 +2,8 @@
 
 namespace L2JFacility;
 
+use L2JFacility\Models\Character;
+
 class Rank
 {
     public static function pvp($pagination = 10)
