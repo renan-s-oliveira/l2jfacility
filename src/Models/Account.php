@@ -3,9 +3,9 @@
 namespace L2JFacility\Models;
 
 use L2JAddCoin\Models\Character;
-use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Database\Eloquent\Model;
 
-class Account extends Authenticatable
+class Account extends Model
 {
     protected $connection = 'login_server';
 
