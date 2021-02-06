@@ -20,11 +20,8 @@ Parâmetros suportado pkkills, karma, fame, level, exp, sp, onlinetime
 
 ## Contadores
 ```
-L2JFacility::count('accounts', 'login_server'); // Primeiro parâmetro 
-nome da tabela, conexão da tabela no caso de accounts fica na conexão de
-login_server em  config/database.php no Laravel
+L2JFacility::count('accounts'); // Primeiro parâmetro nome da tabela
 L2JFacility::count('characters'); // Primeiro parâmetro nome da tabela, 
-por padrão é a conexão do game_server pode ser colocado ou não.
 
 Parâmetros suportado qualquer nome de tabela da sua database
 ```

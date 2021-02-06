@@ -12,6 +12,9 @@ class L2JFacility
     }
     public static function count(string $table, string $db = 'game_server')
     {
+        if($table === 'accounts'){
+            $db = 'login_server';
+        }
         return DB::connection($db)->table($table)->count();
     }
 }
