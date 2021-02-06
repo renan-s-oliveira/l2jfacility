@@ -8,7 +8,7 @@ class Rank
 {
     public static function pvp($pagination = 10)
     {
-        return Character::all()->orderByDesc('pvpkills');
+        return Character::orderByDesc('pvpkills')->paginate($pagination);
     }
 
     public static function pk($pagination = 10)
