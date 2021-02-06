@@ -4,7 +4,7 @@ namespace L2JFacility\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class L2JAddCoinServiceProvider extends ServiceProvider
+class L2JFacilityServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.
