@@ -4,20 +4,8 @@ namespace L2JFacility;
 
 class Rank
 {
-    
-    protected $connection = 'game_server';
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
-    protected $table = 'characters';
+    public static function pvp()
+    {
 
-    protected $primaryKey = 'account_name';
-
-    public $timestamps = false;
-
-    protected $fillable = [];
-
-
+    }
 }
