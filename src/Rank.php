@@ -8,4 +8,19 @@ class Rank
     {
 
     }
+
+    public static function pk()
+    {
+
+    }
+
+    public static function karma()
+    {
+
+    }
+    
+    public static function pk()
+    {
+
+    }
 }
