@@ -47,4 +47,4 @@ DB_PASSWORD_GAME_SERVER=
 
 PayPal QRCode
 
-![PIX](https://github.com/renan-s-oliveira/l2jfacility/blob/main/src/donate/qrcodepix.png)
+![PIX](https://github.com/renan-s-oliveira/l2jfacility/blob/main/src/donate/qrcodepaypal.png)
