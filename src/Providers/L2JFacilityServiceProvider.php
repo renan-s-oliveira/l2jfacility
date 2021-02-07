@@ -21,8 +21,9 @@ class L2JFacilityServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/../config/l2jfacility.php' => config_path('l2jfacility.php'),
         ], 'config');
+
         $this->publishes([
-            __DIR__.'/../config/l2jdatabase.php' => config_path('l2jfacility.php'),
-        ], 'config');
+            __DIR__.'/../config/l2jdatabase.php' => config_path('database.php'),
+        ], 'config-database');
     }    
 }
