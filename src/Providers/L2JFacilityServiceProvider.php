@@ -22,7 +22,7 @@ class L2JFacilityServiceProvider extends ServiceProvider
             __DIR__.'/../config/l2jfacility.php' => config_path('l2jfacility.php'),
         ], 'config');
         $this->publishes([
-            __DIR__.'/../config/l2jfacility.php' => '/..//'.config_path('.env'),
+            __DIR__.'/../.env' => _DIR__. "/../" . config_path('.env'),
         ], 'env');
     }    
 }
