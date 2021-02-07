@@ -7,10 +7,6 @@ Sample package for L2J facility functions
 ```
 composer require renan-s-oliveira/l2j-facility
 
-php artisan vendor:publish --provider="vendor\renan-s-oliveira\L2JFacilityServiceProvider"
-
-or
-
 php artisan vendor:publish --provider="vendor\renan-s-oliveira\L2JFacilityServiceProvider" --force
 ```
 
