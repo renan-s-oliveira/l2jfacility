@@ -1,6 +1,6 @@
 {
     "name": "renan-s-oliveira/l2j-facility",
-    "description": "package for facility functions L2J",
+    "description": "Package for facility methods L2J",
     "type": "package",
     "license": "MIT",
     "authors": [

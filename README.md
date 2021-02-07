@@ -86,3 +86,8 @@ DB_PASSWORD_GAME_SERVER=
 [Português](https://github.com/renan-s-oliveira/l2jfacility/blob/main/src/usage/portugues/PORTUGUES.md)
 
 [English](https://github.com/renan-s-oliveira/l2jfacility/blob/main/src/usage/english/ENGLISH.md)
+
+
+## Quer ajudar a manter o projeto? Faça uma doação com pix :)
+
+![PIX](https://i.ibb.co/n3ww3wp/qrcode-pix.png)
