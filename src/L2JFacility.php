@@ -11,12 +11,9 @@ class L2JFacility
     {
         return Character::orderByDesc($type)->paginate($pagination);
     }
-    public static function count(string $table, string $db = 'game_server')
+    public static function count(string $table)
     {
-        if($table === 'accounts'){
-            $db = 'login_server';
-        }
-        return DB::connection($db)->table($table)->count();
+        return DB::connection($table == 'accounts' ? 'login_server' : 'game_server')->table($table)->count();
     }
     public static function online()
     {
