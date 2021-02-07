@@ -1,8 +1,10 @@
 # l2jfacility
 
-Sample package for L2J facility functions
+Um pacote cheio de métodos para te ajudar a criar sistemas/sites para seu L2J 
 
-## Instalation
+## Instalação
+
+[English](https://github.com/renan-s-oliveira/l2jfacility/blob/main/src/README-english.md)
 
 ```
 composer require renan-s-oliveira/l2j-facility
@@ -12,7 +14,7 @@ php artisan vendor:publish --provider="vendor\renan-s-oliveira\L2JFacilityServic
 
 ```
 
-Remove from .env 
+Remover do .env 
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -21,7 +23,7 @@ DB_DATABASE=laravel
 DB_USERNAME=root
 DB_PASSWORD=
 
-Add to .env and add database information
+Adicionar no .env
 
 DB_CONNECTION=login_server 
 DB_HOST_LOGIN=127.0.0.1
@@ -37,7 +39,7 @@ DB_USERNAME_GAME_SERVER=root
 DB_PASSWORD_GAME_SERVER=
 ```
 
-## How to usage
+## Como usar
 [Português](https://github.com/renan-s-oliveira/l2jfacility/blob/main/src/usage/portugues/PORTUGUES.md)
 
 [English](https://github.com/renan-s-oliveira/l2jfacility/blob/main/src/usage/english/ENGLISH.md)
