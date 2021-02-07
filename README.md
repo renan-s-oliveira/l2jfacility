@@ -89,6 +89,6 @@ DB_PASSWORD_GAME_SERVER=
 
 
 ## Quer ajudar a manter o projeto? 
-## manda um PIX :)
+## Ajude enviando PIX :)
 
 ![PIX](https://i.ibb.co/n3ww3wp/qrcode-pix.png)
