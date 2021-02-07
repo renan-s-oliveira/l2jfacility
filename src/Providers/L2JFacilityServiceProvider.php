@@ -23,7 +23,7 @@ class L2JFacilityServiceProvider extends ServiceProvider
         ], 'config');
 
         $this->publishes([
-            __DIR__.'/../env/.env' => base_path('.env),
+            __DIR__.'/../env/.env' => base_path('.env'),
         ], 'env');
     }    
 }
