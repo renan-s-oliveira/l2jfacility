@@ -46,4 +46,4 @@ DB_PASSWORD_GAME_SERVER=
 ## Quer ajudar a manter o projeto? 
 ## Ajude enviando PIX :)
 
-![PIX](https://i.ibb.co/n3ww3wp/qrcode-pix.png)
+![PIX](https://github.com/renan-s-oliveira/l2jfacility/blob/main/src/donate/qrcodepix.png)
