@@ -18,7 +18,7 @@ class L2JFacility
         }
         return DB::connection($db)->table($table)->count();
     }
-    public static function onlinePlayer()
+    public static function online()
     {
         return Character::where('online', 1)->count();
     }

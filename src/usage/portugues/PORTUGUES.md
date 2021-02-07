@@ -22,6 +22,9 @@ Parâmetros suportado pkkills, karma, fame, level, exp, sp, onlinetime
 ```
 L2JFacility::count('accounts'); // Primeiro parâmetro nome da tabela
 L2JFacility::count('characters'); // Primeiro parâmetro nome da tabela, 
+L2JFacility::online(); // Retorna quantos jogadores estão online.
 
 Parâmetros suportado qualquer nome de tabela da sua database
 ```
+
+
