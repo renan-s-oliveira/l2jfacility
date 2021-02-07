@@ -4,7 +4,7 @@ Um pacote cheio de métodos para te ajudar a criar sistemas/sites para seu L2J
 
 ## Instalação
 
-[English](https://github.com/renan-s-oliveira/l2jfacility/blob/main/src/README-english.md)
+[English](https://github.com/renan-s-oliveira/l2jfacility/blob/main/README-english.md)
 
 ```
 composer require renan-s-oliveira/l2j-facility
