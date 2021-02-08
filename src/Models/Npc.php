@@ -22,4 +22,9 @@ class Npc extends Model
 
     protected $fillable = [];
 
+    public function raidboss()
+    {
+        return $this->hasMany(RaidBoss::class, 'boss_id');
+    }
+
 }

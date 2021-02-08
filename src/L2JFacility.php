@@ -50,15 +50,15 @@ class L2JFacility
     {
         return GrandBoss::with('npc')->get();
     }  
-      
+
     /**
      * boss
      *
      * @return void
      */
-    public static function boss()
+    public static function boss(int $pagination = 10)
     {
-        return RaidBoss::with('npc')->get();
+        return Npc::with('raidboss')->where('type','L2RaidBoss')->orderBy('level')->paginate($pagination);
     }
-}
+
 }
