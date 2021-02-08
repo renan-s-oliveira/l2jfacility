@@ -2,6 +2,7 @@
 
 namespace L2JFacility\Models;
 
+use L2JFacility\Models\RaidBoss;
 use Illuminate\Database\Eloquent\Model;
 
 class Npc extends Model
