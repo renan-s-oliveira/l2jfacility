@@ -5,7 +5,7 @@ namespace L2JFacility\Models;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 
-class GrandeBoss extends Model
+class GrandBoss extends Model
 {
     
     protected $connection = 'game_server';
