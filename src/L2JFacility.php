@@ -24,4 +24,9 @@ class L2JFacility
     {
         return GrandBoss::with('npc')->get();
     }
+    public static function boss()
+    {
+        return RaidBoss::with('npc')->get();
+    }
+}
 }

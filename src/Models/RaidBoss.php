@@ -4,7 +4,7 @@ namespace L2JFacility\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Npc extends Model
+class RaidBoss extends Model
 {
     
     protected $connection = 'game_server';
@@ -16,10 +16,15 @@ class Npc extends Model
      */
     protected $table = 'npc';
 
-    protected $primaryKey = 'id';
+    protected $primaryKey = 'boss_id';
 
     public $timestamps = false;
 
     protected $fillable = [];
+
+    public function npc()
+    {
+        return $this->hasMany(Npc::class, 'id');
+    }
 
 }
