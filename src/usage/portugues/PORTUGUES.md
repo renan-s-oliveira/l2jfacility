@@ -31,5 +31,5 @@ L2JFacility::online(); // Retorna quantos jogadores estão online.
 
 ## GrandBoss estado
 ```
-L2JFacility::grandboss(); // Retorna os grandboss e seus nomes
+L2JFacility::grandboss(); // Retorna os grandboss e seus nomes e características
 ```
