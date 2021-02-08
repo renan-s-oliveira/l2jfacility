@@ -30,5 +30,7 @@ L2JFacility::online(); // Returns how many players are online.
 ```
 L2JFacility::grandboss(); // Returns grandboss and their names and characteristics
 L2JFacility::boss(); // Returns boss and their names and characteristics
+Accepts an optional page parameter the default is 10 per page
+L2JFacility::boss(50); // returns the 50 first raidboss
 ```
 
