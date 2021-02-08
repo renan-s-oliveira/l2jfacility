@@ -2,6 +2,7 @@
 
 namespace L2JFacility;
 
+use L2JFacility\Models\Npc;
 use L2JFacility\Models\Character;
 use L2JFacility\Models\GrandBoss;
 use Illuminate\Support\Facades\DB;
