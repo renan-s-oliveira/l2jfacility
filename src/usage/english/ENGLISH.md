@@ -26,8 +26,9 @@ Parameters supported any table name in your database.
 L2JFacility::online(); // Returns how many players are online.
 ```
 
-## GrandBoss estado
+## Boss estado
 ```
 L2JFacility::grandboss(); // Returns grandboss and their names and characteristics
+L2JFacility::boss(); // Returns boss and their names and characteristics
 ```
 
