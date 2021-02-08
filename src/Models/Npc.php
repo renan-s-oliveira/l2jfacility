@@ -25,7 +25,7 @@ class Npc extends Model
 
     public function raidboss()
     {
-        return $this->hasOne(RaidBoss::class, 'id', 'boss_id');
+        return $this->hasOne(RaidBoss::class, 'id');
     }
 
 }
