@@ -20,7 +20,7 @@ class L2JFacility
     {
         return Character::where('online', 1)->count();
     }
-    public static function grandeboss()
+    public static function grandboss()
     {
         return GrandBoss::with('npc')->get();
     }
