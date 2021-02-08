@@ -3,6 +3,7 @@
 namespace L2JFacility;
 
 use L2JFacility\Models\Character;
+use L2JFacility\Models\GrandBoss;
 use Illuminate\Support\Facades\DB;
 
 class L2JFacility
@@ -18,5 +19,9 @@ class L2JFacility
     public static function online()
     {
         return Character::where('online', 1)->count();
+    }
+    public static function grandeboss()
+    {
+        return GrandBoss::with('npc')->get();
     }
 }
