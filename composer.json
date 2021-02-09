@@ -17,7 +17,9 @@
     },
     "autoload": {
         "psr-4": {
-            "L2JFacility\\": "src/"
+            "L2JFacility\\": "src/",
+            "L2JFacility\\Providers\\": "src/providers",
+            "L2JFacility\\Models\\": "src/models"
         }
     },
     "extra": {
