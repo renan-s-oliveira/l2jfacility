@@ -21,5 +21,9 @@ class Castle extends Model
     public $timestamps = false;
 
     protected $fillable = [];
+    
+    protected $dates = [
+        'siegeDate'
+    ];
 
 }
