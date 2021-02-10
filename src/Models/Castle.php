@@ -24,10 +24,4 @@ class Castle extends Model
 
     protected $fillable = [];
 
-    protected $dateFormat = 'd M Y - H';
-
-    protected $dates = [
-        'siegeDate',
-    ];
-
 }
