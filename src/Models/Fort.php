@@ -33,7 +33,7 @@ class Fort extends Model
         return $fort;
     }
 
-    public static function showShow($name, $format)
+    public static function showFort($name, $format)
     {
         $fort = Fort::where('name', $name)->first();
         $fort->siegeDate = Carbon::parse($fort->siegeDate)->format($format);
