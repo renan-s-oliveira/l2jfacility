@@ -99,7 +99,7 @@ class L2JFacility
      */
     public static function fort($format)
     {
-        return Fort::castle($format);
+        return Fort::fort($format);
     }
     
     
@@ -112,7 +112,7 @@ class L2JFacility
      */
     public static function showFort($name, $format)
     {
-        return Fort::showCastle($name, $format);
+        return Fort::showFort($name, $format);
     }
 
 }
