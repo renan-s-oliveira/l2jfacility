@@ -36,7 +36,7 @@ L2JFacility::boss(50); // Returns the 50 first raidboss
 
 ## Castle
 ```
-L2JFacility::castle('M d Y - H'); Expected parameter date format
+L2JFacility::castle('Y/m/d - H:i:s'); Expected parameter date format
 it will return all information regarding the castles.
 [More format](https://www.php.net/manual/en/function.date.php)
 L2JFacility::showCastle('Aden', 'd M Y'); Expected parameter castle name

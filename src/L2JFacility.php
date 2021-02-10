@@ -72,9 +72,9 @@ class L2JFacility
     public static function castle($format)
     {
         $castle = Castle::all();
-        foreach($castle as $castle)
+        foreach($castle as $c)
         {
-            $castle->siegeDate = $castle->siegeDate->format($format);
+            $c->siegeDate = $c->siegeDate->format($format);
         }
         return $castle;
     }
