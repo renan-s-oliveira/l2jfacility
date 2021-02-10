@@ -2,10 +2,14 @@
 
 namespace L2JFacility;
 
-use L2JFacility\Models\Npc;
-use L2JFacility\Models\Castle;
-use L2JFacility\Models\Character;
-use L2JFacility\Models\GrandBoss;
+use L2JFacility\Models\{
+    Npc,
+    Fort,
+    Castle,
+    Character,
+    GrandBoss,
+};
+
 use Illuminate\Support\Facades\DB;
 
 class L2JFacility
