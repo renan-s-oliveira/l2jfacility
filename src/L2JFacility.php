@@ -95,7 +95,7 @@ class L2JFacility
      */
     public static function fort($format)
     {
-        return Castle::castle($format);
+        return Fort::castle($format);
     }
     
     
@@ -108,7 +108,7 @@ class L2JFacility
      */
     public static function showFort($name, $format)
     {
-        return Castle::showCastle($name, $format);
+        return Fort::showCastle($name, $format);
     }
 
 }
