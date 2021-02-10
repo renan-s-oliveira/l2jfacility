@@ -2,6 +2,7 @@
 
 namespace L2JFacility\Models;
 
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 
 class Castle extends Model
@@ -22,8 +23,20 @@ class Castle extends Model
 
     protected $fillable = [];
     
-    protected $dates = [
-        'siegeDate'
-    ];
+    public static function castle($format)
+    {
+        $castle = Castle::all();
+        foreach($castle as $c)
+        {
+            $c->siegeDate =  Carbon::parse($c->siegeDate)->format($format);
+        }
+        return $castle;
+    }
 
+    public static function showCastle($name, $format)
+    {
+        $castle = Castle::where('name', $name)->first();
+        $castle->siegeDate = Carbon::parse($castle->siegeDate)->format($format);
+        return $castle;
+    }
 }

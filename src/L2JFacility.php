@@ -71,12 +71,7 @@ class L2JFacility
      */
     public static function castle($format)
     {
-        $castle = Castle::all();
-        foreach($castle as $c)
-        {
-            $c->siegeDate = $c->siegeDate->format($format);
-        }
-        return $castle;
+        return Castle::castle($format);
     }
     
     
@@ -89,9 +84,7 @@ class L2JFacility
      */
     public static function showCastle($name, $format)
     {
-        $castle = Castle::where('name', $name)->first();
-        $castle->siegeDate = $castle->siegeDate->format($format);
-        return $castle;
+        return Castle::showCastle($name, $format);
     }
 
 }
