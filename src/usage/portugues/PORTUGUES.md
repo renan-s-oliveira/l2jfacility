@@ -37,13 +37,22 @@ Aceita um parâmetro opcional de páginação o padrão é 10 por página
 L2JFacility::boss(50); // retorna os 50 primeiro raidboss
 ```
 
-## Castle
+## Castle e Fortress
 ```
 L2JFacility::castle('d/m/Y - H:i:s'); Parâmetro esperado formato da data 
 ele vai retornar todas as informações referente aos castelos.
 [Mais formatos](https://www.php.net/manual/pt_BR/function.date.php)
 L2JFacility::showCastle('Aden', 'd M Y'); Parâmetro esperado nome do castelo
 Aden, Dion, Giran, Gludio, Goddard, Innadril, Oren, Rune, Schuttgart 
+e o segundo parâmetro é o formato da data.
+Usando o nome do castelo vai retonar informações apenas daquele castelo. 
+
+L2JFacility::fort('d/m/Y - H:i:s'); Parâmetro esperado formato da data 
+ele vai retornar todas as informações referente aos fortress.
+[Mais formatos](https://www.php.net/manual/pt_BR/function.date.php)
+L2JFacility::showFort('Aaru', 'd M Y'); Parâmetro esperado nome do fortress
+Aaru, Antharas, Archaic, Bayou, Borderland, Cloud Mountain, Demon, Dragonspine,
+Floran,Hive, Hunters, Ivory, Monastic, Narsell, Shanty (...) 
 e o segundo parâmetro é o formato da data.
 Usando o nome do castelo vai retonar informações apenas daquele castelo. 
 ```

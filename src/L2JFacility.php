@@ -87,4 +87,28 @@ class L2JFacility
         return Castle::showCastle($name, $format);
     }
 
+    /**
+     * Fort
+     *
+     * @param  mixed $format
+     * @return void
+     */
+    public static function fort($format)
+    {
+        return Castle::castle($format);
+    }
+    
+    
+    /**
+     * showFort
+     *
+     * @param  mixed $name
+     * @param  mixed $format
+     * @return void
+     */
+    public static function showFort($name, $format)
+    {
+        return Castle::showCastle($name, $format);
+    }
+
 }

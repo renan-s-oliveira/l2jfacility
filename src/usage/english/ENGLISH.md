@@ -36,12 +36,21 @@ L2JFacility::boss(50); // Returns the 50 first raidboss
 
 ## Castle
 ```
-L2JFacility::castle('Y/m/d - H:i:s'); Expected parameter date format
+L2JFacility::castle('Y/m/d - H:i:s'); // Expected parameter date format
 it will return all information regarding the castles.
 [More format](https://www.php.net/manual/en/function.date.php)
 L2JFacility::showCastle('Aden', 'd M Y'); Expected parameter castle name
 Aden, Dion, Giran, Gludio, Goddard, Innadril, Oren, Rune, Schuttgart 
 and the second parameter is the date format.
 Using the name of the castle will return information only from that castle.
+
+L2JFacility::fort('d/m/Y - H:i:s'); // Expected parameter date format 
+it will return all information regarding the fort.
+[Mais formatos](https://www.php.net/manual/pt_BR/function.date.php)
+L2JFacility::showFort('Aaru', 'd M Y'); // Expected parameter fort name
+Aaru, Antharas, Archaic, Bayou, Borderland, Cloud Mountain, Demon, Dragonspine,
+Floran,Hive, Hunters, Ivory, Monastic, Narsell, Shanty (...) 
+and the second parameter is the date format.
+Using the name of the castle will return information only from that fort. 
 ```
 
