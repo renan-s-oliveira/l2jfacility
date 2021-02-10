@@ -2,12 +2,10 @@
 
 namespace L2JFacility\Models;
 
-use DateTimeInterface;
 use Illuminate\Database\Eloquent\Model;
 
 class Castle extends Model
 {
-    use DateTimeInterface;
 
     protected $connection = 'game_server';
     
