@@ -2,11 +2,13 @@
 
 namespace L2JFacility\Models;
 
+use DateTimeInterface;
 use Illuminate\Database\Eloquent\Model;
 
 class Castle extends Model
 {
-    
+    use DateTimeInterface;
+
     protected $connection = 'game_server';
     
     /**
@@ -22,7 +24,7 @@ class Castle extends Model
 
     protected $fillable = [];
 
-    protected $dateFormat = 'd M Y - H e';
+    protected $dateFormat = 'd M Y - H';
 
     protected $dates = [
         'siegeDate',
