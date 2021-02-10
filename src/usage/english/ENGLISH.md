@@ -31,6 +31,17 @@ L2JFacility::online(); // Returns how many players are online.
 L2JFacility::grandboss(); // Returns grandboss and their names and characteristics
 L2JFacility::boss(); // Returns boss and their names and characteristics
 Accepts an optional page parameter the default is 10 per page
-L2JFacility::boss(50); // returns the 50 first raidboss
+L2JFacility::boss(50); // Returns the 50 first raidboss
+```
+
+## Castle
+```
+L2JFacility::castle('d M Y'); Expected parameter date format
+it will return all information regarding the castles.
+[More format](https://www.php.net/manual/en/function.date.php)
+L2JFacility::showCastle('Aden', 'd M Y'); Expected parameter castle name
+Aden, Dion, Giran, Gludio, Goddard, Innadril, Oren, Rune, Schuttgart 
+and the second parameter is the date format.
+Using the name of the castle will return information only from that castle.
 ```
 

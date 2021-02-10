@@ -3,6 +3,7 @@
 namespace L2JFacility;
 
 use L2JFacility\Models\Npc;
+use L2JFacility\Models\Castle;
 use L2JFacility\Models\Character;
 use L2JFacility\Models\GrandBoss;
 use Illuminate\Support\Facades\DB;
@@ -60,6 +61,34 @@ class L2JFacility
     public static function boss(int $pagination = 10)
     {
         return Npc::with('raidboss')->where('type','L2RaidBoss')->orderBy('level')->paginate($pagination);
+    }
+    
+    /**
+     * castle
+     *
+     * @param  mixed $format
+     * @return void
+     */
+    public static function castle($format)
+    {
+        $castle = Castle::all();
+        $castle->siegeDate = date($format, strtotime($castle->siegeDate));
+        return $castle;
+    }
+    
+    
+    /**
+     * showCastle
+     *
+     * @param  mixed $name
+     * @param  mixed $format
+     * @return void
+     */
+    public static function showCastle($name, $format)
+    {
+        $castle = Castle::where('name', $name);
+        $castle->siegeDate = date($format, strtotime($castle->siegeDate));
+        return $castle;
     }
 
 }
