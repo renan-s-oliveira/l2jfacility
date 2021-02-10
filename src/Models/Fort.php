@@ -2,7 +2,7 @@
 
 namespace L2JFacility\Models;
 
-use L2JFacility\Models\Fort;
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 
 class Fort extends Model
