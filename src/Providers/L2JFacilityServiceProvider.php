@@ -1,6 +1,6 @@
 <?php
 
-namespace L2JFacility\Providers;
+namespace DDDArtisan\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,7 +13,6 @@ class L2JFacilityServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        
     }
 
     public function boot()
@@ -25,5 +24,5 @@ class L2JFacilityServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/../config/l2jdatabase.php' => config_path('database.php'),
         ], 'config-database');
-    }    
+    }
 }
